@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopSmart - Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <img src="images/watch.jpg" alt="Smart Watch" />
+      <h3>Smart Watch</h3>
+      <p>₹2999</p>
+      <button onclick="addToCart('Smart Watch')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/earbuds.jpg" alt="Wireless Earbuds" />
+      <h3>Wireless Earbuds</h3>
+      <p>₹1999</p>
+      <button onclick="addToCart('Wireless Earbuds')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/speaker.jpg" alt="Bluetooth Speaker" />
+      <h3>Bluetooth Speaker</h3>
+      <p>₹1499</p>
+      <button onclick="addToCart('Bluetooth Speaker')">Add to Cart</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
