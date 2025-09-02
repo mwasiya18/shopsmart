@@ -1,3 +1,4 @@
+// src/components/Footer.js
 function Footer() {
   return (
     <footer className="footer">
