@@ -1,3 +1,4 @@
+// src/pages/Products.js
 import ProductCard from '../components/ProductCard';
 
 const products = [

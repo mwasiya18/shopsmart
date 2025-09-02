@@ -1,3 +1,4 @@
+// src/components/ProductCard.js
 function ProductCard({ product, addToCart }) {
   return (
     <div className="card">

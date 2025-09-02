@@ -1,3 +1,4 @@
+// src/pages/Home.js
 function Home() {
   return (
     <main className="hero">
